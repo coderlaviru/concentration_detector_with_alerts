@@ -15,19 +15,7 @@ Features:
 - Automatic logging to CSV for personal analytics
 
 Demo:
-[Include a screenshot or GIF here at assets/demo_screenshot.png]
-
-Installation:
-
-1. Clone the Repository
-   git clone https://github.com/yourusername/concentration-tracker.git
-   cd concentration-tracker
-
-2. Install Dependencies
-   pip install -r requirements.txt
-
-3. Run the Application
-   python main.py
+in the mp4 file
 
 Requirements:
 
@@ -37,7 +25,7 @@ Requirements:
 - NumPy
 - Tkinter (standard with Python)
 
-If needed, install manually:
+install manually:
 pip install opencv-python mediapipe numpy
 
 CSV Logging:
