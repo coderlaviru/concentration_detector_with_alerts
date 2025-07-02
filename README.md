@@ -1,2 +1,67 @@
 # concentration_detector_with_alerts
-A real-time concentration monitoring system using MediaPipe, OpenCV, and Tkinter, capable of detecting distraction and logging performance.
+AI-Based Concentration Tracker
+
+A real-time concentration monitoring system powered by AI, designed to detect and track focus levels using facial landmarks.
+This project uses MediaPipe, OpenCV, and Tkinter to assess attention based on eye movement, head posture, and blink detection.
+
+Features:
+
+- Real-time Concentration Detection
+- Eye Aspect Ratio for blink detection
+- Head Pose Estimation
+- Gaze Estimation using iris tracking
+- Smooth concentration bar with distraction counter
+- Popup alert using GUI if user is distracted
+- Automatic logging to CSV for personal analytics
+
+Demo:
+[Include a screenshot or GIF here at assets/demo_screenshot.png]
+
+Installation:
+
+1. Clone the Repository
+   git clone https://github.com/yourusername/concentration-tracker.git
+   cd concentration-tracker
+
+2. Install Dependencies
+   pip install -r requirements.txt
+
+3. Run the Application
+   python main.py
+
+Requirements:
+
+- Python 3.x
+- OpenCV
+- MediaPipe
+- NumPy
+- Tkinter (standard with Python)
+
+If needed, install manually:
+pip install opencv-python mediapipe numpy
+
+CSV Logging:
+
+- All session scores and distraction status are saved in concentration_log.csv
+- Format: Timestamp, Concentration Score, Distracted
+
+Tools & Libraries Used:
+
+- OpenCV
+- MediaPipe
+- NumPy
+- Tkinter
+
+To-Do / Future Plans:
+
+- Add sound alerts alongside popups
+- Multi-user support
+- Dashboard analytics
+- Break timer integration
+- .exe packaging with autostart
+
+Contributing:
+Pull requests, ideas, and suggestions are welcome!
+
+License:
+This project is licensed under the MIT License. See the LICENSE file for details.
