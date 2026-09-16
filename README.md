@@ -1,5 +1,3 @@
-
-````
 # Concentration Detector with Alerts
 
 A real-time computer vision application that monitors a user's concentration level using facial landmarks, eye movement, gaze direction, head position, and blinking behavior.
