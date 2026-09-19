@@ -528,7 +528,3 @@ B.Tech CSE (AI & ML)
 GitHub:
 [https://github.com/coderlaviru](https://github.com/coderlaviru)
 
-```
-
-**Important:** Save this exactly as **`README.md`** in the repository. Your Python code should remain in a separate `.py` file; the README is the documentation for that code.
-```
